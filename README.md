@@ -1,2 +1,2 @@
 # oleksandrtomas.github.io
-<a href="index4.html">Домашня робома #4</a>
+<a href="index4.html">Домашня робота #4</a>
