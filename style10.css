@@ -37,7 +37,6 @@ border-radius:3px;
 	padding:10px;
 margin-right:500px;}
 #leftcol {
-	height:1100px;
   float: right;
 margin-right:10px;
   border-radius:5px;
@@ -45,7 +44,6 @@ margin-right:10px;
   width: 40%;
 }
 #rightcol {
-	height:1100px;
   border-radius:5px;
   margin:10px;
   margin-right: 41%;
