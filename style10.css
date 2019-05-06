@@ -16,7 +16,9 @@ flex-wrap:wrap;
 .element{background: linear-gradient(to top left, #800080 ,#FA8072);
 font-family: Gill Sans Extrabold, sans-serif;
 flex:1;
+font-size:140%;
 margin:10px;
+padding:10px;
 text-align:center;
 border-radius:3px;
 }
