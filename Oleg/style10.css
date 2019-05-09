@@ -1,0 +1,133 @@
+body{
+	background:#191970;}
+#disk{
+	float:right;
+	width:20%;
+	height:20%;
+	padding:10px;
+	border:3px solid white;
+	z-index:10;}
+#head{
+	text-align:center;
+	margin:10px;
+	border-radius:5px;
+	background: linear-gradient(to top left,#FF00FF ,#8B008B,#00FFFF ,red);}
+#flexbox{
+	display:flex;
+	flex-direction:row;
+	border-radius:10px;
+	flex-wrap:wrap;}
+#main{
+	margin-left:10px;
+	border-radius:5px;
+	background: linear-gradient(to top left,#FF00FF ,#8B008B,#00FFFF ,red);
+	padding:10px;
+	margin-right:500px;}
+
+#hot{
+	text-align:center;
+	font-size:250%;
+	font-family:monospace;}
+p{
+	font-size:150%;
+	margin:4px;}
+#welcome{
+	text-align: center;
+    background:linear-gradient(to top left,#FF00FF ,#8B008B,#00FFFF ,red);
+	margin:10px;
+	border-radius:5px;}
+#welcome-head{
+	background: linear-gradient(to top, white, pink);
+	border-radius:10px;
+	border:1px solid white;
+	margin:auto;
+	width:300px;
+	font-family: system-ui;}
+.footer{
+	background:#4B0082;
+	font-size:140%;
+	margin:10px;
+	border-radius:5px;
+	color:white;
+	text-align:center;}
+#right-up{
+	font-size:250%;
+	text-align:center;
+	font-family:monospace;}
+#right-text{
+	font-size:180%;
+	font-family: system-ui;}
+#posters{
+	text-align:center;}
+#screenshots img{
+	margin:7px;
+	border:2px solid black;
+	width:40%;
+	height:40%;}
+	#main-part{
+		background: linear-gradient(to top left,#FF00FF ,#8B008B,#00FFFF ,red);
+		margin:10px;
+		border-radius:5px;}
+table{
+	background-color:#DC143C;
+	text-align: center;
+	margin:40px;
+	flex:1;}
+.table{
+	display:flex;
+	flex-direction:row;
+	margin:30px;
+	flex-wrap:wrap;}
+tr:nth-child(-2n+3){color:white;}
+tr:nth-child(2){background:white;}
+tr:nth-child(n+4){background:white;}
+table tr td img{
+	height:150px;
+	width:150px;}
+#line-main{
+	border:none;
+	background:red;
+	height:3px;
+	}
+#line{
+	border:none;
+	background:#C71585;
+	height:2px;
+	opacity:0.3;}
+#op{
+	font-family:Arial Narrow, sans-serif;
+	font-size:120%;}
+.names{
+	font-size:250%;
+	text-align:center;
+	font-family:monospace;}
+.jack{
+	font-size:130%;
+	font-family:Times New Roman, serif;}
+.tegs{
+	font-size:200%;
+	color:indigo;
+	margin:10px;}
+.date{
+	font-size:160%}
+.text{
+	font-size:120%;
+	font-family:Times New Roman, serif}
+.quest{
+	font-family:Times New Roman, cursive;
+	font-size: 110%;}
+.margin{
+	margin:10px;}
+.jacket{
+	font-size:110%;
+	font-family:Times New Roman, cursive;}
+.wall{
+	background:linear-gradient(to top left,#FF00FF ,#8B008B,#00FFFF ,red);
+	margin:10px;
+	border-radius:5px}
+.carousel-item img{
+	margin:auto;}
+#head-omg{
+  width: 90%;
+  max-width: 960px;
+  margin:0 auto;}
