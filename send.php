@@ -1,10 +1,7 @@
 <?php 
 if(isset($_POST['submit'])){
-/* Устанавливаем e-mail Кому и от Кого будут приходить письма */   
-$to = "sa.tomash40@gmail.com"; // Здесь нужно написать e-mail, куда будут приходить письма   
-$from = "sa.tomash50@gmail.com"; // Здесь нужно написать e-mail, от кого будут приходить письма, например no-reply(собака)epicblog.net
- 
-/* Указываем переменные, в которые будет записываться информация с формы */
+$to = "sa.tomash40@gmail.com";
+$from = "sa.tomash50@gmail.com";
 $first_name = $_POST['first_name'];
 $email = $_POST['email'];
 $message = $_POST['message'];
@@ -27,7 +24,7 @@ echo "Повідомлення відправлено. Спасибі вам" . 
 echo "<br /><br /><a href='https://oleksandrtomas.github.io'>Вернуться на сайт.</a>";
 }
 ?>
-<script language="JavaScript" type="text/javascript">
+<script type="text/javascript">
 function changeurl(){eval(self.location="https://oleksandrtomas.github.io");}
 window.setTimeout("changeurl();",5000);
 </script>
