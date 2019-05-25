@@ -6,7 +6,7 @@ body{
 }
 @font-face{
 	font-family:hotwords;
-	src:url(2183325.ttf);
+	src:url(SourceSansPro-Semibold.otf);
 
 }
 .hotlinee{font-family:hotwords;}
@@ -29,7 +29,7 @@ body{
 
 #hot{
 	text-align:center;
-	font-size:350%;
+	font-size:250%;
 	font-family:hotwords;}
 p{
 	font-size:150%;
@@ -212,3 +212,12 @@ table tr td img{
 		width:80%;
 	}
 }
+.line-footer{
+	border:none;
+	height:2px;
+	z-index:30;
+	background:deeppink;
+	box-shadow:0px -1px 1px pink;
+	width:70%;
+}
+.vid{text-align:center;}
