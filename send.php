@@ -1,5 +1,4 @@
 <?php 
-
 if(isset($_POST['submit'])){
 /* Устанавливаем e-mail Кому и от Кого будут приходить письма */   
 $to = "sa.tomash40@gmail.com"; // Здесь нужно написать e-mail, куда будут приходить письма   
@@ -9,13 +8,12 @@ $from = "sa.tomash50@gmail.com"; // Здесь нужно написать e-mai
 $first_name = $_POST['first_name'];
 $email = $_POST['email'];
 $message = $_POST['message'];
-$subject = "Форма отправки сообщений с сайта Epic Blog";
+$subject = "Повідомлення";
 if (!preg_match("/([\w\-]+\@[\w\-]+\.[\w\-]+)/", $email))
 {
 show_error("<br /> Е-mail адрес не існує");
 }
      
-/* Переменная, которая будет отправлена на почту со значениями, вводимых в поля */
 $mail_to_myemail = "Доброго дня!
 Було відправлено повідомлення з сайту!
 Ім'я відправника:$first_name
