@@ -1,0 +1,35 @@
+<?php 
+
+if(isset($_POST['submit'])){
+/* Устанавливаем e-mail Кому и от Кого будут приходить письма */   
+$to = "sa.tomash40@gmail.com"; // Здесь нужно написать e-mail, куда будут приходить письма   
+$from = "sa.tomash50@gmail.com"; // Здесь нужно написать e-mail, от кого будут приходить письма, например no-reply(собака)epicblog.net
+ 
+/* Указываем переменные, в которые будет записываться информация с формы */
+$first_name = $_POST['first_name'];
+$email = $_POST['email'];
+$message = $_POST['message'];
+$subject = "Форма отправки сообщений с сайта Epic Blog";
+if (!preg_match("/([\w\-]+\@[\w\-]+\.[\w\-]+)/", $email))
+{
+show_error("<br /> Е-mail адрес не існує");
+}
+     
+/* Переменная, которая будет отправлена на почту со значениями, вводимых в поля */
+$mail_to_myemail = "Доброго дня!
+Було відправлено повідомлення з сайту!
+Ім'я відправника:$first_name
+E-mail:$email
+Текст повідомлення:$message
+Щоб відповісти на лист, створіть нове повідомлення, скопіюйте електронну адресу і вставте в поле Кому.";
+     
+$headers = "From: $from \r\n";
+mail($to, $subject, $mail_to_myemail, $headers . 'Content-type: text/plain; charset=utf-8');
+echo "Повідомлення відправлено. Спасибі вам" . $first_name . ", Ми скоро зв'яжемося з Вами.";
+echo "<br /><br /><a href='https://oleksandrtomas.github.io'>Вернуться на сайт.</a>";
+}
+?>
+<script language="JavaScript" type="text/javascript">
+function changeurl(){eval(self.location="https://oleksandrtomas.github.io");}
+window.setTimeout("changeurl();",5000);
+</script>

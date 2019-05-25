@@ -3,14 +3,13 @@
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+ <link rel='stylesheet' href='http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css'>
   <meta charset="UTF-8">
   <title>Hotline Miami</title>
   <link rel="stylesheet" type="text/css" href="style10.css">
   <link rel="shortcut icon" href="https://vignette.wikia.nocookie.net/hotlinemiami/images/6/6f/Лого.png/revision/latest?cb=20161017202002&path-prefix=ru" type="image/png">
 </head>
 <body>
-<div class="wall" id="head-img">
-<img id="head-omg" src="https://otvet.imgsmail.ru/download/u_5351fed57d2ec404d41a5d0bc89602a7_800.png"></div>
     <nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top">
       <span class="navbar-text">
          Hotline Miami
@@ -43,7 +42,8 @@
             Контактна інформація
           </a>
           <div class="dropdown-menu">
-           <a class="dropdown-item" href="index-form.html">Напишіть мені</a>
+            <a class="dropdown-item" href="#">E-mail</a>
+            <a class="dropdown-item" href="#">Телефон</a>
             <a class="dropdown-item" href="#">Про мене</a>
           </div>
         </li>
@@ -53,10 +53,16 @@
 </nav>
     </nav>
 
-<video controls width="710" height="538" preload="none">
-  <source src="https://www.youtube.com/watch?v=SAcr5yf7I9k" type="video/mp4">
-</video>
-
+  <div class="form-block">
+    <div class="form">
+      <form action="send.php" method="post">
+        <div class="form-group"><input id="field" type="name" name="first-name" placeholder="username" required><i class="fa fa-user"></i></div><br>
+        <div class="form-group"><input type="email" name="email" placeholder="example@gmail.com" required><i class="fa fa-envelope "></i></div><br>
+        <div class="form-group"><input type="text" name="message" maxlength="800" rows="7" placeholder="text"><i class="fa fa-pencil fa-fw" aria-hidden="true"></i></div><br>
+        <input id="sub-but" type="submit" name="submit" value="В І Д П Р А В И Т И">
+      </form>
+    </div>
+  </div>
 
 <footer>
   <div class="footer">
